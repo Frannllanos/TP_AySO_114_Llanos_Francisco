@@ -1,1 +1,2 @@
 Usuario=vagrant
+model name	: 12th Gen Intel(R) Core(TM) i5-12450HX
