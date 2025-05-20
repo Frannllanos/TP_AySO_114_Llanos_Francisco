@@ -1,0 +1,351 @@
+ls
+lf
+cd RepoGit
+cd repogit
+ls
+lb
+cd ..
+pwd
+echo hola
+ls
+ls -l
+cat *txt
+mkdir clase4
+ls -l
+cd clase4/
+cat > texto1.txt
+ls-l
+ls -l
+cd clase4/
+cat texto1.txt
+ls -l
+cat << FIN > texto2.txt
+linea 4
+linea 5
+linea 6
+FIN
+
+ls -l
+cat texto2.txt 
+cat *.txt
+cat texto1.txt >> texto2.txt 
+cat texto2.txt 
+cat << EOF >texto3.txt
+linea 7
+linea 8
+linea 9
+EOF
+
+cat texto1.txt texto3.txt > texto4.txt
+ls -l
+cat texto4.txt 
+echo texto4.txt 
+echo hola > hola.txt
+ls -l
+cat hola.txt 
+echo chau >> texto4.txt 
+cat texto4
+cat texto4.txt 
+man gre
+man grep
+grep chau hola.txt
+cat hola.txt 
+grep hola hola.txt
+cat texto4.txt 
+grep 7 texto4.txt  > filtro7.txt
+cat filtro7.txt 
+history
+history > mihistorial.txt
+cat mihistorial.txt 
+ls -l .ssh/
+tree
+sudo apt install tree
+sudo snap install tree
+sudo snap  install tree
+sudo apt  install tree
+sudo snap install tree
+sudo apt install tree
+tree
+sodu snap install tree
+sudo snap install tree
+tree destroy -f
+sudo apt install tree
+sudo snap install tree
+sudo snap changes
+sudo sanp changes 4
+sudo snap abort 4
+sudo snap install tree
+tree
+ls -l
+cd clase4/
+ls -l
+hola.txt home/vagrant
+mv hola.txt home/vagrant
+mv filtro7.txt /home/vagrant
+ls -l
+cd ..
+ls -l
+cd..
+cd ..
+rm clase4/
+id
+w
+ls
+pwd
+ls -l
+cd vagrant
+pwd
+mkdir dir1 dir2 dir3
+tree
+ls *l
+ls -l
+mkdir -p dog1/dog2/dog3
+tree
+mkdir p {clase1,clase2}/{teoria,practica}
+mkdir -p {clase1,clase2}/{teoria,practica}
+tree
+mkdir -p {compras1/vendedor{1..3},compra2/{vendedor{1..3},repositor}}
+treee
+tree
+cat /etc/passwd
+cat /etc/group
+cat /etc/shadow
+sudo cat /etc/shadow
+groupadd alumnos
+sodu groupadd alumnos
+sudo groupadd alumnos
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno Francisco" -G alumnos
+cat /etc/passwd
+-D
+sudo useradd -m -s /bin/bash -c "Alumno Francisco" -G alumnos
+-D
+cat /etc/group
+sudo useradd -m -s/bin/bash -c "Alumno Francisco" -G alumnos
+sudo useradd -m -s /bin/bash -c "Alumno fran" -G alumnos
+sudo useradd -m -s /bin/bash -c "Alumno fran" -G alumnos fran
+cat /etc/group
+passwd fran
+sudo passwd fran
+sudo cat/etc/shadow
+sudo cat /etc/shadow
+su/ fran
+su fran
+cd fran
+pwd
+cd ..
+pwd
+cd fran
+sudo cd fran
+pwd
+su fran
+pwd
+history
+history > historialclase4.txt
+sudo history > historialclase4.txt /home/fran
+us fran
+su fran
+history
+cat history > clase4historial.txt
+sudo cat history > clase4historial.txt
+vagrant half
+ls -l
+ls
+mkdir clase5
+ls -l
+cd clase5
+ls -l
+echo hola > texto1.txt
+ls -l
+cat texto1.txt 
+ls -l
+chmod 666 texto1.txt 
+ls -l
+chmod 764 texto1.txt 
+ls -l
+echo chau > texto2.txt
+ls -l
+chmod 644
+chmod 644 texto2.txt 
+ls -l
+cd ..
+ls -l
+chmod -R 777 clase5/
+ls -l
+cd clase5/
+ls -l
+chmod 700 texto1.txt 
+ls -l
+chmod 600 texto1.txt 
+ls -l
+chmod 610 texto1.txt 
+ls -l
+chmod 601 texto1.txt 
+ls -l
+chmod g+r texto1.txt 
+ls -l
+echo Mi primer scrtipt
+echo Funciono ok
+cat << FIN > script1
+pwd
+ls -l
+echo Mi primer script
+echo funciono ok
+FIN
+
+ls -l
+cat script1 
+bash script1 
+vim script2.sh
+ls -l
+cat script2.sh 
+chmod 764 script2.sh
+ls -l
+./script2.sh 
+ls -l
+cd..
+cd ..
+pdw
+pwd
+ssh-keygen -t ed25519
+y
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls -la
+ls -la .ssh/
+cat .ssh/id_ed25519.pub
+pwd
+ls -l
+mkdir repogit
+cd repogit
+ls -l
+ls
+git clone git@github.com:Frannllanos/TP_AySO_114_Llanos_Francisco.git
+ls -l
+cd TP_AySO_114_Llanos_Francisco/
+ls -l
+cat README.md 
+cat /etc/os-release
+man grep
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+git status
+git add .
+git status
+git commit -m "subo el archivo datos_url.txt"
+git config --global user.email "llanosfran044@gmail.com"
+git config --global user.name "Frannllanos"
+git commit -m "subo el archivo datos_url.txt"
+git status
+git push
+exit
+ls -l
+cd repogit
+ls -la
+ls -l
+cd TP_AySO_114_Llanos_Francisco/
+ls -l
+pwd
+ls -la
+grep HOME_URL /etc/os-release
+cat datos_url.txt 
+grep -i HOME_URL /etc/os-release
+echo whoami
+echo whoami -un
+grep whoami -un
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_114_Llanos_Francisco/
+ls -la
+cat datos_url.txt 
+grep whoami
+ls -l
+ls -la
+id -un
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+ls
+ls -l
+ls
+cd repogit/
+ls -l
+cd TP_AySO_114_Llanos_Francisco/
+ls -l
+cat datos_usuario.txt 
+git status
+git add datos_usuario.txt
+git commit -m "Agrego archivo datos_usuario.txt del punto 3"
+git status
+git push
+git status
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+git status
+cat <<EOF >> README.md
+Alumno: Francisco Joaquin Llanos
+División: 114
+Turno: Mañana
+EOF
+
+git reflog
+git status
+git log --oneline -5
+cd repogit/
+cd TP_AySO_114_Llanos_Francisco/
+ls -l
+cat datos_usuario.txt 
+cat README.md 
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+git status
+mkdir -p ~/materia1/uni1 ~/materia1/uni2 ~/materia1/uni3 ~/materia2/uni1 ~/materia2/uni2 ~/materia2/uni3
+tree ~/materia1 ~/materia2
+echo histoy
+echo history
+cat history
+grep history
+cd home/vagrant
+ls -l
+cd repogit/
+cd home/vagrant
+cd TP_AySO_114_Llanos_Francisco/
+cd home/vagrant
+tree
+tree ~/materia1 ~/materia2
+tree materia1 materia2
+cd /home/vagrant/
+tree materia1 materia2
+cd repogit/
+cd TP_AySO_114_Llanos_Francisco/
+tree ~/materia1 ~/materia2
+tree /materia1 /materia2
+tree materia1 materia2
+cd /home/vagrant/
+tree materia1 materia2
+cd repogit/
+cd TP_AySO_114_Llanos_Francisco/
+ls -la
+nano script_dir.sh
+cd repogit/
+cd TP_AySO_114_Llanos_Francisco/
+ls -l
+ls -la
+rm script_dir.sh.save
+rm script_dir.sh
+ls -l
+nano script_dir.sh
+cd repogit/
+cd TP_AySO_114_Llanos_Francisco/
+ls -l
+chmod +x script_dir.sh
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script"
+git push
+git status
+history -a
