@@ -304,7 +304,7 @@ git add README.md datos_usuario.txt
 git commit -m "ADD: Añadiendo Readme y datos de usuario"
 git push
 git status
-mkdir -p ~/materia1/uni1 ~/materia1/uni2 ~/materia1/uni3 ~/materia2/uni1 ~/materia2/uni2 ~/materia2/uni3
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
 tree ~/materia1 ~/materia2
 echo histoy
 echo history
@@ -343,7 +343,7 @@ nano script_dir.sh
 cd repogit/
 cd TP_AySO_114_Llanos_Francisco/
 ls -l
-chmod +x script_dir.sh
+chmod 755 script_dir.sh
 git add script_dir.sh
 git commit -m "ADD: Añadiendo script"
 git push
